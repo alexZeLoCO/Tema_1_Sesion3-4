@@ -48,7 +48,6 @@ public class BasePlusCommissionEmployee extends CommissionEmployee
        * 		DESVENTAJA: NO CUMPLE PRINCIPIO DE ENCAPSULACIÓN (?)
        * 					YA EXISTE UNA FUNCIÓN QUE HACE ESTA OPERACIÓN
        * 	C) USAR FUNCIÓN EARNINGS DE SUPER CLASE USANDO SUPER.EARNINGS()
-       * 		VENTAJA: MÁS ORDENADO
        */
       
    } // end method earnings
