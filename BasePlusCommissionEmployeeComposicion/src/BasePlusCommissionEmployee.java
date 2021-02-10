@@ -63,11 +63,8 @@ public class BasePlusCommissionEmployee {
 	public double getBase() {
 		return base;
 	}
-	
-	/**
-	 * earnings() will calculate the earnings of an instance of BasePlusCommissionEmployee
-	 * @return double ==> base + (rate * sales)
-	 */
+
+	//earnings calculation
 	public double earnings() {
 		return employee.earnings() + getBase();
 	}
@@ -82,6 +79,8 @@ public class BasePlusCommissionEmployee {
 	 * C) VENTAJAS/DESVENTAJAS DE USAR COMPOSICIÓN:
 	 * 
 	 * 	-Ventajas:	Una vez hecha CommissionEmployee, sólo se usa BasePlusCommissionEmployee
+	 * 				No es necesario usar atributos de CommissionEmployee en BasePlusCommissionEmployee
+	 * 
 	 * 	-Desventajas: Necesario duplicar todos los métodos de CommissionEmployee en BasePlusCommissionEmployee
 	 */
 }

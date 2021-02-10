@@ -9,14 +9,13 @@ public class BasePlusCommissionEmployee extends CommissionEmployee
    public BasePlusCommissionEmployee( String first, String last, String ssn, double sales, double rate, double salary )
    {
       // explicit call to superclass CommissionEmployee constructor
-      super( first, last, ssn, sales, rate );
+      //super( first, last, ssn, sales, rate );
       
-	   /*
       super.setFirstName(first);
       super.setLastName(last);
       super.setSocialSecurityNumber(ssn);
       super.setGrossSales(sales);
-      */
+      
       
       setBaseSalary( salary ); // validate and store base salary
    } // end six-argument BasePlusCommissionEmployee constructor

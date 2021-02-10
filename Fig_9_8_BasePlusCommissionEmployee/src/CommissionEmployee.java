@@ -10,6 +10,10 @@ public class CommissionEmployee extends Object
    protected double commissionRate; // commission percentage
 
    // five-argument constructor
+   public CommissionEmployee () {
+	   
+   }
+   
    public CommissionEmployee( String first, String last, String ssn, 
       double sales, double rate )
    {
